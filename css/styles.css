@@ -284,8 +284,16 @@ address {
   background-color: #f4f4fd;
   padding: 24px 100px 24px 100px;
 }
-
-
+.list-icon {
+  display: flex;
+  gap: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+  justify-content: center;
+}
+.icon2 {
+  margin-right: 24px;
+}
 
 .section2 {
   background-color: #f4f4fd;
