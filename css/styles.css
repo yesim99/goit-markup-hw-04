@@ -291,7 +291,10 @@ address {
   padding-right: 16px;
   justify-content: center;
 }
-
+.icon {
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
 
 .section2 {
   background-color: #f4f4fd;
