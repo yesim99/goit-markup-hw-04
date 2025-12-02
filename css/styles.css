@@ -357,7 +357,7 @@ background-color: green;
 .mediason {
 gap: 16px;
 margin: auto 0px;
-text-align: start;
+align-content: baseline;
 
 }
 .sosyal {
