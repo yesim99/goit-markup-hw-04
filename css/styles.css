@@ -351,14 +351,20 @@ background-color: green;
 .sonicon {
   display: flex;
   list-style-type: none;
-  margin-left: 120px;
+  margin-left: 540px;
+  gap: 16px;
 }
 .mediason {
 gap: 16px;
+margin: auto 0px;
+text-align: start;
 
 }
 .sosyal {
 font-size: medium;
 color: #ffffff;
 padding-bottom: 16px;
+margin-left: 540px;
+
+
 }
