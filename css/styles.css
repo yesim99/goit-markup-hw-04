@@ -328,13 +328,17 @@ address {
   height: 40px;
   background-color: #4d5ae5;
   border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  position: relative;
 }
 .icon {
   width: 16px;
   height: 16px;
   justify-content: center;
 }
-.list-icon2:hover {
+.list-icon2:hover::after{
+  content: "";
 background-color: green;
 }
 .section2 {
@@ -359,7 +363,8 @@ background-color: green;
   height: 40px;
 
 }
-.mediason:hover {
+.mediason:hover::after {
+  content: "";
   background-color: green;
 }
 
