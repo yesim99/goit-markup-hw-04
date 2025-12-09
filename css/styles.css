@@ -190,10 +190,9 @@ background-color: #ffffff;
 gap: 8px;
 text-align: center;
 padding-bottom: 32px;
-box-shadow: 0px 1px 6px 0px #2E2F42,
-    0px 1px 0px 0px #2e2f42,
-    0px 2px 1px 0px #2E2F42;
-    opacity: 1;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+ 0px 1px 1px rgba(46, 47, 66, 0.16),
+  0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .Bölüm2 > .page-title3{
   margin-top: 32px;
@@ -225,9 +224,11 @@ box-shadow: 0px 1px 6px 0px #2E2F42,
     transform: translateY(0);
   }
   .bölüm3:hover {
-    box-shadow: 0px 1px 6px 0px rgba(46, 47,66, 0.08);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47,66, 0.08);
-    box-shadow: 0px 1px 1px 0px rgba(46, 47,66, 0.16);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+
+
   }
   .bölüm3 > .page-title3{
     margin-top: 32px;
@@ -319,13 +320,21 @@ address {
   padding-left: 16px;
   padding-right: 16px;
   justify-content: center;
+  transition: background-color;
+  align-items: center;
 }
-.icon {
+.list-icon2 {
+  width: 40px;
+  height: 40px;
   background-color: #4d5ae5;
   border-radius: 50%;
-  transition: background-color;
 }
-.icon:hover::after {
+.icon {
+  width: 16px;
+  height: 16px;
+  justify-content: center;
+}
+.list-icon2:hover {
 background-color: green;
 }
 .section2 {
@@ -342,7 +351,17 @@ background-color: green;
 .logoson {
   margin-left: 156px;
 }
+.mediason {
+  background-color: #4d5ae5;
+    border-radius: 50%;
+  transition: background-color;
+  width: 40px;
+  height: 40px;
 
+}
+.mediason:hover {
+  background-color: green;
+}
 
 
 .finalp {
