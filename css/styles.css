@@ -324,21 +324,24 @@ address {
   align-items: center;
 }
 .list-icon2 {
+  display: flex;
+    justify-content: center;
+    align-items: center;
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
   border-radius: 50%;
-  top: 50%;
-  left: 50%;
-  position: relative;
+  justify-content: center;
+  align-items: center;
+  
 }
 .icon {
   width: 16px;
   height: 16px;
+  align-items: center;
   justify-content: center;
 }
-.list-icon2:hover::after{
-  content: "";
+.list-icon2:hover{
 background-color: green;
 }
 .section2 {
@@ -356,6 +359,9 @@ background-color: green;
   margin-left: 156px;
 }
 .mediason {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #4d5ae5;
     border-radius: 50%;
   transition: background-color;
@@ -363,8 +369,7 @@ background-color: green;
   height: 40px;
 
 }
-.mediason:hover::after {
-  content: "";
+.mediason:hover {
   background-color: green;
 }
 
