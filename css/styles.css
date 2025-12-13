@@ -342,7 +342,7 @@ address {
   justify-content: center;
 }
 .list-icon2:hover{
-background-color: green;
+background-color: #404bbf;
 }
 .section2 {
   background-color: #f4f4fd;
@@ -350,13 +350,27 @@ background-color: green;
 }
 
 .footer {
+  display: flex;
   background-color: #2e2f42;
   height: 312px;
   align-content: center;
+  justify-content: space-around;
+  gap: 120px;
+}
+.div 
+{
+  margin-top: 100px;
+  justify-content: center;
 
 }
+.divson {
+  margin-top: 100px;
+  justify-content: center;
+}
+
+/*ödev4*/
 .logoson {
-  margin-left: 156px;
+  margin-left: 156px; 
 }
 .mediason {
   display: flex;
@@ -370,7 +384,7 @@ background-color: green;
 
 }
 .mediason:hover {
-  background-color: green;
+  background-color: #404bbf;
 }
 
 
