@@ -354,18 +354,15 @@ background-color: #404bbf;
   background-color: #2e2f42;
   height: 312px;
   align-content: center;
-  justify-content: space-around;
   gap: 120px;
 }
 .div 
 {
   margin-top: 100px;
-  justify-content: center;
 
 }
 .divson {
   margin-top: 100px;
-  justify-content: center;
 }
 
 /*ödev4*/
@@ -399,7 +396,6 @@ background-color: #404bbf;
 .sonicon {
   display: flex;
   list-style-type: none;
-  margin-left: 540px;
   gap: 16px;
 }
 
@@ -407,7 +403,7 @@ background-color: #404bbf;
 font-size: medium;
 color: #ffffff;
 padding-bottom: 16px;
-margin-left: 540px;
+
 
 
 }
